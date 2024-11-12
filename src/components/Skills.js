@@ -1,26 +1,6 @@
-// import React from "react";
-// import { FaReact, FaFigma, FaNodeJs } from "react-icons/fa"; // Add icons for other tech you use
-
-// function Skills() {
-//   return (
-//     <section className="text-center my-8">
-//       <h2 className="text-2xl font-bold">What I Use</h2>
-//       <div className="flex justify-center space-x-6 mt-4">
-//         <FaReact className="text-5xl" />
-//         <FaFigma className="text-5xl" />
-//         <FaNodeJs className="text-5xl" />
-//         {/* Add more icons as needed */}
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default Skills;
-
-
 import React from "react";
-import { FaReact, FaFigma, FaNodeJs, FaGitAlt, FaJs, FaBootstrap, FaTrello } from "react-icons/fa";
-import { SiGoogle, SiGooglemeet, SiGmail, SiGoogledocs, SiGooglesheets, SiGoogleforms, SiGoogleads, SiCanva, SiTailwindcss, SiMicrosoftonenote, SiMicrosoftoutlook, SiMicrosoftteams, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoft } from "react-icons/si";
+import { FaReact, FaFigma, FaNodeJs, FaGitAlt, FaJs, FaBootstrap, FaTrello, FaTerminal, FaRobot, FaBrain } from "react-icons/fa";
+import { SiGoogle, SiGooglemeet, SiGmail, SiGoogledocs, SiGooglesheets, SiGoogleforms, SiGoogleads, SiCanva, SiTailwindcss, SiMicrosoftonenote, SiMicrosoftoutlook, SiMicrosoftteams, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoft, SiGooglecalendar, SiGoogleslides, SiGithub } from "react-icons/si";
 import { MdOutlineCalendarToday } from "react-icons/md";  // Importing calendar icon
 
 function Skills() {
@@ -123,6 +103,30 @@ function Skills() {
         <div className="flex flex-col items-center">
           <SiMicrosoft className="text-5xl" />
           <span className="mt-2">Microsoft</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiGooglecalendar className="text-5xl" />
+          <span className="mt-2">Google Calendar</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiGoogleslides className="text-5xl" />
+          <span className="mt-2">Google Slides</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <FaTerminal className="text-5xl" />
+          <span className="mt-2">Terminal</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <FaRobot className="text-5xl" />
+          <span className="mt-2">ChatGPT</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiGithub className="text-5xl" />
+          <span className="mt-2">GitHub Copilot</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <FaBrain className="text-5xl" />
+          <span className="mt-2">Microsoft Copilot</span>
         </div>
       </div>
     </section>
