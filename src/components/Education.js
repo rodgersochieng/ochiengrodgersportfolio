@@ -4,14 +4,22 @@ import mckinsey from '../avatar/mckinsey-forward-program.png'
 import linkedin from '../avatar/linkedin.png'
 import moringa from '../avatar/moringa.png'
 import ffa from '../avatar/ffa.png'
+import uop from '../avatar/uop.png'
 
 
 const certificates = [
     {
+        institution: 'University of the People',
+        title: 'Bsc Computer Science',
+        description: "Ongoing computer science course ",
+        skills: ['python programming language','ongoing'],
+        image: uop
+      },
+    {
         institution: '54 Collective',
-        title: 'Entreprenuership',
-        description: "successfully completing the SOFTWARE ENGINEERING COURSE,which covers both Back-End and Front-End programming technologies.The course was delivered by Moringa School and included certain content from Flatiron School ",
-        skills: ['Web development','React','Javascript','Ruby/Rails','Mysql','sqlite','postgress','Empathy', 'Figma','User-Centered Design', 'User-Centric', 'User Experience', 'User Research', 'UI/UX'],
+        title: 'Entreprenuership Building and Launching a Startup',
+        description: " building startup ",
+        skills: ['Customer research','Building MVP',],
         image: ffa
       },
     {
@@ -38,7 +46,7 @@ const certificates = [
   {
     institution: 'Linkedin Learning',
     title: 'Digital Marketing',
-    description: 'foundations of digital marketing.',
+    description: 'foundations  digital marketing.',
     skills: ['Digital marketing'],
     image: linkedin
   },
