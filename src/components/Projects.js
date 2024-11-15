@@ -1,37 +1,42 @@
+
 import React from "react";
+import kihara from '../avatar/kihara.png'
+import autodream from '../avatar/autodream.png'
+import arika from '../avatar/arika.png'
+
+
 
 const projects = [
   {
-    name: 'Project One',
-    description: 'This project is a web application that helps users track their tasks efficiently. Built with React and Node.js, it offers a clean and intuitive interface.',
-    features: ['Task Management', 'User Authentication', 'Responsive Design'],
-    github: 'https://github.com/username/project-one',
-    live: 'https://project-one-live-link.com',
-    image: 'project-one.png', // Replace with actual image paths
+    name: 'Kihara Secondary',
+    description: 'A comprehensive school website for Kihara Secondary School, providing students, parents, and staff with up-to-date information and resources. The site features a news section, event calendar, and student portal for accessing grades and assignments.',
+    features: ['News Section', 'Event Calendar', 'Student Portal', 'Responsive Design'],
+    github: 'https://github.com/rodgersochieng/kihara-secondary',
+    live: 'https://kiharasecondary.vercel.app/',
+    image: kihara
   },
   {
-    name: 'Project One',
-    description: 'This project is a web application that helps users track their tasks efficiently. Built with React and Node.js, it offers a clean and intuitive interface.',
-    features: ['Task Management', 'User Authentication', 'Responsive Design'],
-    github: 'https://github.com/username/project-one',
-    live: 'https://project-one-live-link.com',
-    image: 'project-one.png', // Replace with actual image paths
+    name: 'Travel Booking Website',
+    description: 'A dynamic travel booking website that allows users to search, book, and manage their travel itineraries. Built with modern web technologies, it provides a seamless and intuitive user experience for finding flights, hotels, and rental cars.',
+    features: ['Flight Search', 'Hotel Booking', 'Rental Car Reservations', 'User Reviews', 'Responsive Design'],
+    github: 'https://github.com/rodgersochieng/arika-le-travel',
+    live: 'https://arika-le-travel.vercel.app/',
+    image: arika
   },
   {
-    name: 'Project Two',
-    description: 'An e-commerce platform that provides seamless shopping experiences. It includes product listings, user reviews, and a secure checkout process.',
-    features: ['Product Listings', 'User Reviews', 'Secure Checkout'],
-    github: 'https://github.com/username/project-two',
-    live: 'https://project-two-live-link.com',
-    image: 'project-two.png', // Replace with actual image paths
+    name: 'Car Dealership Website',
+    description: 'An advanced car dealership website offering a platform for users to browse, compare, and purchase vehicles. It includes features such as vehicle listings, detailed car specifications, customer reviews, and a contact form for inquiries.',
+    features: ['Vehicle Listings', 'Detailed Car Specifications', 'Customer Reviews', 'Contact Form', 'Responsive Design'],
+    github: 'https://github.com/rodgersochieng/autodream-dealers',
+    live: 'https://autodream-dealers.vercel.app/',
+    image: autodream 
   },
-  // Add more projects here
 ];
 
 function Projects() {
   return (
     <section className="text-center my-8">
-      <h2 className="text-3xl font-bold mb-6">My Projects</h2>
+      <h2 className="text-3xl font-bold mb-6">Some Starter Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <div key={index} className="rounded-lg overflow-hidden">

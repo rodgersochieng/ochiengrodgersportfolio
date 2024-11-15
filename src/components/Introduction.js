@@ -15,7 +15,7 @@ function Introduction() {
         {/* ChatGPT Button with PNG */}
         <button className="p-2 text-white rounded-full flex items-center">
           <img src={require('../avatar/chatgpt.png')} alt="ChatGPT" className="w-5 h-5 mr-2" />
-          ChatGPT
+          GPT
         </button>
         {/* Claude AI Button with PNG */}
         <button className="p-2 text-white rounded-full flex items-center">
@@ -31,7 +31,7 @@ function Introduction() {
       <p className="text-md text-white">
       <h4 className="text-2xl font-bold mb-3"> I Empower Ideas, Bridging Tech and Business</h4> 
 
-As a front-end developer with a passion for AI, I bring a unique combination of technical skills and business insight. I help startups navigate the challenges of refining MVPs, enhancing customer strategies, and leveraging technology to drive growth. My focus is on guiding entrepreneurs who need both a critical business perspective and technical solutions.
+      With a background in both technical and strategic fields, I have developed a well-rounded skill set that combines software engineering, digital marketing, and user-centered design to create innovative solutions and impactful user experiences. Whether you're looking for insights on solving complex business problems, developing user-centric digital solutions, or building software applications, feel free to reach out. I bring a blend of problem-solving, design thinking, and software engineering expertise to help drive your projects forward.
       </p>
     </div>
   

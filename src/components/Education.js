@@ -64,11 +64,11 @@ const certificates = [
 function Certificates() {
   return (
     <section className="text-center my-8">
-      <h2 className="text-3xl font-bold mb-4">Certifications</h2>
+      <h2 className="text-3xl font-bold mb-4">What I have leaned so far</h2>
       <div className="space-y-8">
         {certificates.map((cert, index) => (
           <div key={index} className="flex flex-col md:flex-row items-center p-4">
-            <img src={cert.image} alt={`${cert.institution} logo`} className="w-50 h-50 md:mr-4 mb-4 md:mb-0"/>
+            <img src={cert.image} alt={`${cert.institution} logo`} className="w-35 h-35 md:mr-4 mb-4 md:mb-0"/>
             <div className="text-left">
               <h3 className="text-xl font-semibold">{cert.title}</h3>
               <p className="mt-2">{cert.description}</p>

@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Welcome to my professional portfolio! This site showcases my projects, skills, and experiences. Here you can find detailed information about my journey as a software developer, the various technologies I work with, and examples of my work.
 
-## Available Scripts
+## Table of Contents
+- [Projects](#projects)
+- [Skills](#skills)
+- [About Me](#about-me)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## Projects
+1. **Kihara Secondary**: A comprehensive school website providing essential resources for students, parents, and staff.
+   - Features: News Section, Event Calendar, Student Portal, Responsive Design
+   - [GitHub Repository](https://github.com/username/kihara-secondary)
+   - [Live Demo](https://kihara-secondary-live-link.com)
 
-### `npm start`
+2. **Travel Booking Website**: A dynamic platform for booking flights, hotels, and rental cars.
+   - Features: Flight Search, Hotel Booking, Rental Car Reservations, User Reviews, Responsive Design
+   - [GitHub Repository](https://github.com/username/travel-booking)
+   - [Live Demo](https://travel-booking-live-link.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Car Dealership Website**: An advanced site offering detailed vehicle listings and customer reviews for purchasing cars.
+   - Features: Vehicle Listings, Detailed Car Specifications, Customer Reviews, Contact Form, Responsive Design
+   - [GitHub Repository](https://github.com/username/car-dealership)
+   - [Live Demo](https://car-dealership-live-link.com)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Skills
+- **Languages**: JavaScript, Python, Ruby, SQL
+- **Frameworks & Libraries**: React, Node.js, Ruby on Rails
+- **Tools & Platforms**: Git, Slack, Zoom, Hootsuite, Bitrix24
 
-### `npm test`
+## About Me
+I have honed my expertise through a combination of rigorous programs and hands-on experiences designed to develop a comprehensive understanding of both business and technology. As a graduate of the McKinsey Forward Program, I’ve gained critical thinking and problem-solving strategies tailored for the future of business, with a focus on being an effective communicator and resilient leader.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Through LinkedIn Learning’s Digital Marketing course, I’ve learned how to leverage digital platforms and tools to create targeted strategies that drive business growth, build brand awareness, and enhance customer engagement. This knowledge empowers me to help businesses refine their marketing efforts and reach their target audiences more effectively.
 
-### `npm run build`
+In addition, my IBM Enterprise Design Thinking Practitioner certification equipped me with the tools to design products and services that meet real user needs, delivering exceptional user experiences while aligning with business objectives. This focus on user-centric design allows me to bridge business goals with technical development in ways that maximize both efficiency and impact.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+At Moringa School, I completed a comprehensive Software Engineering course, which included both front-end and back-end development. I am proficient in modern technologies such as React, JavaScript, Ruby on Rails, and database management systems like MySQL, PostgreSQL, and SQLite. These technical skills allow me to turn business ideas into tangible digital solutions that are scalable, functional, and user-friendly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Beyond my technical proficiency, I am deeply invested in creating business strategies that prioritize user experience and business outcomes. By utilizing user-centered design, UX research, and ideation, I ensure that the solutions I build not only solve problems but also enhance the overall experience for users. My experience in digital marketing, brand strategy, and business operations ensures that I always approach each project with the long-term business impact in mind.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Whether working with startups or established companies, my mission is to help businesses evolve by combining design thinking, technical development, and business strategy. I aim to provide innovative solutions that drive operational efficiencies, elevate user experiences, and deliver measurable results.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any inquiries or feedback, please contact me at sirrodgers21@gmail.com.
