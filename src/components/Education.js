@@ -5,21 +5,29 @@ import linkedin from '../avatar/linkedin.png'
 import moringa from '../avatar/moringa.png'
 import ffa from '../avatar/ffa.png'
 import uop from '../avatar/uop.png'
+import ALX from '../avatar/ALX.png' 
 
 
 const certificates = [
     {
         institution: 'University of the People',
-        title: 'Bsc Computer Science',
-        description: "Ongoing computer science course ",
-        skills: ['python programming language','ongoing'],
+        title: 'BSc. Computer Science',
+        description: "Ongoing computer science Degree ",
+        skills: ['Ongoing python programming language','ongoing programs'],
         image: uop
+      },
+      {
+        institution: 'ALX Africa',
+        title: 'Virtual Assistant',
+        description: "As a graduate of the ALX Africa Virtual Assistant program, I have gained essential skills in administrative support, time management, and customer service. Through the course, I mastered tools and techniques for managing calendars, handling emails, scheduling appointments, and ensuring smooth operations for teams and executives.",
+        skills: ['Email Management & Correspondence','Calendar & Appointment Management','Customer Support & Client Relations','Social Media Management','Data Entry & Record Keeping','Document Preparation & Editing','Project Coordination','Online Research & Information Gathering','Multitasking & Time Management','Problem Solving & Adaptability'],
+        image: ALX
       },
     {
         institution: '54 Collective',
         title: 'Entreprenuership Building and Launching a Startup',
-        description: " building startup ",
-        skills: ['Customer research','Building MVP',],
+        description: "As a graduate of Founders Factory Africa (now 54Collective), I played a key role in launching a startup, gaining hands-on experience in everything from ideation to execution. This experience, combined with in-depth exposure to the entrepreneurial ecosystem, has equipped me with the skills to support startups in a variety of stages and functions.",
+        skills: ['Startup Strategy & Launch Support','Market Research & Insights','Pitching & Fundraising Assistance','Customer & Client Relationship Management','Team Collaboration & Coordination','Data & Reporting','Technology Integration & Tools','Problem Solving & Critical Thinking','Adaptability & Growth Mindset'],
         image: ffa
       },
     {
@@ -46,8 +54,8 @@ const certificates = [
   {
     institution: 'Linkedin Learning',
     title: 'Digital Marketing',
-    description: 'foundations  digital marketing.',
-    skills: ['Digital marketing'],
+    description: 'Foundations  digital marketing.',
+    skills: ['Digital marketing','hootsuite','Meta adds'],
     image: linkedin
   },
   
@@ -60,7 +68,7 @@ function Certificates() {
       <div className="space-y-8">
         {certificates.map((cert, index) => (
           <div key={index} className="flex flex-col md:flex-row items-center p-4">
-            <img src={cert.image} alt={`${cert.institution} logo`} className="w-35 h-35 md:mr-4 mb-4 md:mb-0"/>
+            <img src={cert.image} alt={`${cert.institution} logo`} className="w-50 h-50 md:mr-4 mb-4 md:mb-0"/>
             <div className="text-left">
               <h3 className="text-xl font-semibold">{cert.title}</h3>
               <p className="mt-2">{cert.description}</p>
