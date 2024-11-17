@@ -30,8 +30,8 @@ function Introduction() {
   
       <p className="text-md text-white">
       <h4 className="text-2xl font-bold mb-3"> I Empower Ideas, Bridging Tech and Business</h4> 
-
-      With a background in both technical and strategic fields, I have developed a well-rounded skill set that combines software engineering, digital marketing, and user-centered design to create innovative solutions and impactful user experiences. Whether you're looking for insights on solving complex business problems, developing user-centric digital solutions, or building software applications, feel free to reach out. I bring a blend of problem-solving, design thinking, and software engineering expertise to help drive your projects forward.
+      Ever had an idea so brilliant you wondered if you’d need a wizard to make it real? Well, I’m not quite a wizard, but I come pretty close. Think of me as your personal tech-business magician minus the hat and wand. I turn ambitious ideas into things that actually work, with a few laughs along the way.Got something complex that needs simplifying? Or a wild concept that's just begging to come to life? I’m here to make it happen and make it fun. If we hit a snag, don’t worry, I promise not to pull a rabbit out of the hat (unless you’re into that sort of thing).
+     Curious? Let’s dive in and make some magic happen. 😊✨
       </p>
     </div>
   
