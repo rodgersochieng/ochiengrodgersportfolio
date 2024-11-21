@@ -19,7 +19,7 @@ const certificates = [
       {
         institution: 'ALX Africa',
         title: 'Virtual Assistant',
-        description: "I’m a graduate of the ALX Africa Virtual Assistant Program, and let’s just say—if you need someone to keep your life organized without losing their mind in the process, I’m your person. I’ve got the skills to keep your inbox from overflowing, your calendar from becoming a hot mess, and your appointments running like clockwork. Honestly, I might be the superhero of administrative support... without the cape (though I do have a killer sense of timing).",
+        description: "I’m a graduate of the ALX Africa Virtual Assistant Program, and let’s just say if you need someone to keep your life organized without losing their mind in the process, I’m your person. I’ve got the skills to keep your inbox from overflowing, your calendar from becoming a hot mess, and your appointments running like clockwork. Honestly, I might be the superhero of administrative support... without the cape (though I do have a killer sense of timing).",
         skills: ['Email Management & Correspondence','Calendar & Appointment Management','Customer Support & Client Relations','Social Media Management','Data Entry & Record Keeping','Document Preparation & Editing','Project Coordination','Online Research & Information Gathering','Multitasking & Time Management','Problem Solving & Adaptability'],
         image: ALX
       },
@@ -33,14 +33,14 @@ const certificates = [
     {
         institution: 'Moringa school',
         title: 'Software Engineering',
-        description: "I’ve completed the Software Engineering Course from Moringa School, which was like a boot camp for building digital worlds. This wasn’t just any course—it covered both Back-End and Front-End technologies, so now I’m as comfortable wrangling databases as I am designing slick user interfaces. Oh, and did I mention it included some content from Flatiron School? That’s right, I got the best of both worlds. ",
+        description: "I’ve completed the Software Engineering Course from Moringa School, which was like a boot camp for building digital worlds. This wasn’t just any course it covered both Back-End and Front-End technologies, so now I’m as comfortable wrangling databases as I am designing slick user interfaces. Oh, and did I mention it included some content from Flatiron School? That’s right, I got the best of both worlds. ",
         skills: ['Web development','React','Javascript','Ruby/Rails','Mysql','sqlite','postgress','Empathy', 'Figma','User-Centered Design', 'User-Centric', 'User Experience', 'User Research', 'UI/UX'],
         image: moringa
       },
   {
     institution: 'IBM',
     title: 'Enterprise Design Thinking Practitioner',
-    description: <p>When it comes to Enterprise Design Thinking, I'm officially a card-carrying Practitioner (okay, it’s a badge, but still). Thanks to IBM, I’ve learned the ropes of turning business goals into user-friendly solutions that people actually want to use—not just click once and bounce. Now, I see every project as a chance to flex my design skills and sprinkle a little empathy into the process (who knew empathy could be a superpower?).With this training, I’m all about finding those “aha” moments where design meets real user needs. Need a digital experience that doesn’t just look good but actually makes sense?
+    description: <p>When it comes to Enterprise Design Thinking, I'm officially a card-carrying Practitioner (okay, it’s a badge, but still). Thanks to IBM, I’ve learned the ropes of turning business goals into user-friendly solutions that people actually want to use not just click once and bounce. Now, I see every project as a chance to flex my design skills and sprinkle a little empathy into the process (who knew empathy could be a superpower?).With this training, I’m all about finding those “aha” moments where design meets real user needs. Need a digital experience that doesn’t just look good but actually makes sense?
 
     </p>,
     skills: ['Design', 'Empathy', 'Experience Design', 'Ideation', 'PWID-B0495200', 'User-Centered Design', 'User-Centric', 'User Experience', 'User Research', 'UX'],
@@ -49,7 +49,7 @@ const certificates = [
   {
     institution: 'McKinsey & Company',
     title: 'McKinsey Forward Program',
-    description: <p>So, I earned my McKinsey Forward badge, which basically means I went through an intense online boot camp on how to thrive in the future of work (spoiler: it’s all about being adaptable and digitally savvy). I learned the famous McKinsey way of problem-solving, so now I’m pretty much a troubleshooting ninja. The course also threw in some solid communication skills—apparently, there’s more to it than just speaking loudly and hoping for the best.
+    description: <p>So, I earned my McKinsey Forward badge, which basically means I went through an intense online boot camp on how to thrive in the future of work (spoiler: it’s all about being adaptable and digitally savvy). I learned the famous McKinsey way of problem-solving, so now I’m pretty much a troubleshooting ninja. The course also threw in some solid communication skills apparently, there’s more to it than just speaking loudly and hoping for the best.
     They didn’t stop there, though. I got resilience training, a digital toolkit, and tips on how to stay cool and flexible no matter what chaos the workday throws my way</p>,
     skills: ['Problem solving', 'Empathy', 'Experience Design', 'Ideation','User-Centered Design', 'User-Centric', 'User Experience', 'User Research', 'UX'],
     image: mckinsey
@@ -57,7 +57,7 @@ const certificates = [
   {
     institution: 'Linkedin Learning',
     title: 'Digital Marketing',
-    description: 'I’ve recently completed the Digital Marketing Foundations course from LinkedIn Learning, and I’m ready to dive into the world of online marketing! While I’m still at the start of my digital marketing journey, I’ve already learned the ropes of using tools like Hootsuite and running Meta ads to get the word out. Think of me as the marketing rookie who’s gearing up to take on the digital world—one click at a time.',
+    description: 'I’ve recently completed the Digital Marketing Foundations course from LinkedIn Learning, and I’m ready to dive into the world of online marketing! While I’m still at the start of my digital marketing journey, I’ve already learned the ropes of using tools like Hootsuite and running Meta ads to get the word out. Think of me as the marketing rookie who’s gearing up to take on the digital world one click at a time.',
     skills: ['Digital marketing','hootsuite','Meta adds'],
     image: linkedin
   },
