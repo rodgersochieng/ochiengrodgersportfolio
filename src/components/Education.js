@@ -25,7 +25,7 @@ const certificates = [
       },
     {
         institution: '54 Collective',
-        title: 'Entreprenuership Building and Launching a Startup',
+        title: 'Entrepreneurship Building and Launching a Startup',
         description: "So, here’s a fun fact: I didn’t just learn about startups; I helped launch one. As a graduate of Founders Factory Africa (now rebranded as 54Collective), I got my hands dirty in the wild, unpredictable world of entrepreneurship. From scribbling down ideas to seeing them come to life, I had a front-row seat to the entire rollercoaster ride. And trust me, I’ve picked up a few tricks that could make even the scrappiest of startups feel like a lean, mean business machine.  My time at 54Collective taught me to handle everything from startup strategy to launch support. I learned the importance of market research (and how to tell when the numbers are actually telling a story), perfected the art of pitching without breaking into a cold sweat, and became the go-to person for making sure clients and customers feel like VIPs. In startup life, “wearing multiple hats” is an understatement, but it turns out I look pretty good in all of them ",
         skills: ['Startup Strategy & Launch Support','Market Research & Insights','Pitching & Fundraising Assistance','Customer & Client Relationship Management','Team Collaboration & Coordination','Data & Reporting','Technology Integration & Tools','Problem Solving & Critical Thinking','Adaptability & Growth Mindset'],
         image: ffa
