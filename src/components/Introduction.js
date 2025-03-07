@@ -124,15 +124,7 @@ const Hero = () => {
               className="absolute w-40 h-24 bg-[rgba(230,57,70,0.15)] rounded-full bottom-1/2 right-1/2"
               animate={{ x: [-20, 20, -20] }}
               transition={{ duration: 7, repeat: Infinity }}
-            />
-            {/* Text Overlay */}
-            {/* <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <div className="text-5xl md:text-4xl flex flex-col md:flex-row gap-4 md:gap-8 text-[#e63946] font-['Montserrat',sans-serif] font-bold">
-                <span>GPT</span>
-                <span>DeepSeek</span>
-                <span>Claude</span>
-              </div>
-            </div> */}
+            />          
           </motion.div>
         </div>
       </div>
@@ -178,44 +170,6 @@ const About = () => {
     </section>
   );
 };
-
-// const Experience = () => {
-//   return (
-//     <section id="experience" className="py-20 md:py-32 bg-[#f1faee] px-4 md:px-0">
-//       <div className="max-w-7xl mx-auto px-5">
-//         <h2 className="text-3xl md:text-4xl text-center mb-12 md:mb-16 relative pb-4 font-['Montserrat',sans-serif] font-bold after:content-[''] after:absolute after:w-20 after:h-1 after:bg-[#e63946] after:bottom-0 after:left-1/2 after:-translate-x-1/2">My Journey</h2>
-        
-//         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">  
-//           <div className="bg-white p-6 md:p-8 rounded-lg shadow-md relative transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-xl overflow-hidden opacity-0 transform translate-y-5 before:content-[''] before:absolute before:w-1 before:h-12 before:bg-[#e63946] before:left-0 before:top-8" id="exp-2">
-//             <h3 className="text-xl md:text-2xl mb-3 md:mb-4 text-[#1d3557] font-['Montserrat',sans-serif] font-semibold">Coursera - Project Management</h3>
-//             <p className="text-gray-600 text-sm md:text-base">This certification equipped me with the tools and methodologies to manage projects effectively, ensuring they’re delivered on time, within scope, and aligned with business goals. From planning and execution to risk management and stakeholder communication, I gained hands-on experience in leading projects that drive results.</p>
-//           </div>
-//           <div className="bg-white p-6 md:p-8 rounded-lg shadow-md relative transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-xl overflow-hidden opacity-0 transform translate-y-5 before:content-[''] before:absolute before:w-1 before:h-12 before:bg-[#e63946] before:left-0 before:top-8" id="exp-4">
-//             <h3 className="text-xl md:text-2xl mb-3 md:mb-4 text-[#1d3557] font-['Montserrat',sans-serif] font-semibold">Moringa School - Software Engineering</h3>
-//             <p className="text-gray-600 text-sm md:text-base">Completed a comprehensive Software Engineering course, including both front-end and back-end development. Proficient in modern technologies that help turn business ideas into tangible digital solutions.</p>
-//           </div>
-//           <div className="bg-white p-6 md:p-8 rounded-lg shadow-md relative transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-xl overflow-hidden opacity-0 transform translate-y-5 before:content-[''] before:absolute before:w-1 before:h-12 before:bg-[#e63946] before:left-0 before:top-8" id="exp-4">
-//             <h3 className="text-xl md:text-2xl mb-3 md:mb-4 text-[#1d3557] font-['Montserrat',sans-serif] font-semibold">Founders Factory Africa - Venture Building & Startup Acceleration</h3>
-//             <p className="text-gray-600 text-sm md:text-base">I gained hands-on experience in launching and scaling startups, working at the intersection of business, technology, and user needs. This program sharpened my ability to validate ideas quickly, navigate uncertainty, and turn concepts into viable, user-focused solutions. From customer research to product development and growth strategies, I learned what it takes to build something that truly works—beyond just an idea.</p>
-//           </div>
-//           <div className="bg-white p-6 md:p-8 rounded-lg shadow-md relative transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-xl overflow-hidden opacity-0 transform translate-y-5 before:content-[''] before:absolute before:w-1 before:h-12 before:bg-[#e63946] before:left-0 before:top-8" id="exp-3">
-//             <h3 className="text-xl md:text-2xl mb-3 md:mb-4 text-[#1d3557] font-['Montserrat',sans-serif] font-semibold">ALX Africa - Virtual Assistant Program</h3>
-//             <p className="text-gray-600 text-sm md:text-base">Think of me as the person who keeps things moving smoothly and efficiently. At ALX Africa, I mastered the art of handling projects, organizing information, and making sure nothing falls through the cracks. Whether it’s managing stakeholders, streamlining workflows, or just bringing order to the daily chaos, I learned how to get things done without the overwhelm.</p>
-//           </div>
-//           <div className="bg-white p-6 md:p-8 rounded-lg shadow-md relative transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-xl overflow-hidden opacity-0 transform translate-y-5 before:content-[''] before:absolute before:w-1 before:h-12 before:bg-[#e63946] before:left-0 before:top-8" id="exp-3">
-//             <h3 className="text-xl md:text-2xl mb-3 md:mb-4 text-[#1d3557] font-['Montserrat',sans-serif] font-semibold">IBM - Enterprise Design Thinking Practitioner</h3>
-//             <p className="text-gray-600 text-sm md:text-base">This certification equipped me with a user-first framework to design products and services that solve real problems. By prioritizing the needs of real users, fostering collaboration, and using iterative prototyping, I create solutions that deliver exceptional experiences while aligning with business goals.</p>
-//           </div>
-//           <div className="bg-white p-6 md:p-8 rounded-lg shadow-md relative transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-xl overflow-hidden opacity-0 transform translate-y-5 before:content-[''] before:absolute before:w-1 before:h-12 before:bg-[#e63946] before:left-0 before:top-8" id="exp-1">
-//             <h3 className="text-xl md:text-2xl mb-3 md:mb-4 text-[#1d3557] font-['Montserrat',sans-serif] font-semibold">McKinsey Forward Program</h3>
-//             <p className="text-gray-600 text-sm md:text-base">This program equipped me with critical thinking, problem-solving, and leadership skills tailored for the future of business. Through hands-on training, I learned to navigate complexity, communicate effectively, and lead with resilience in a rapidly evolving landscape.</p>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
 const Experience = () => {
   useEffect(() => {
     AOS.init({
